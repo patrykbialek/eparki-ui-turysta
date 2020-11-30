@@ -29,7 +29,6 @@ class AppMenu {
 
   contrastToggle = document.querySelector("#contrast-theme-toggle");
 
-
   init() {
     this.ticketsButton.addEventListener("click", this.toggleMenu.bind(this));
     this.aboutButton.addEventListener("click", this.toggleMenu.bind(this));
@@ -51,8 +50,6 @@ class AppMenu {
       "click",
       this.toggleContrastTheme.bind(this)
     );
-
-    this.summaryToggle.addEventListener("click", this.toggleSummary.bind(this));
   }
 
   toggleInvoiceData() {
